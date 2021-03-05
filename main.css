@@ -1,0 +1,60 @@
+body {
+    font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+    border-bottom: 3px solid grey;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 35px;  
+    margin-top: 5px;   
+    text-align: center;
+    border-bottom: 3px solid grey;
+}
+.photo {
+    max-width: 260px;
+    margin-left: 50px;
+    margin-right: 100px;
+
+
+}
+
+.wrapper {
+    display: flex;
+	justify-content: space-between;
+    margin-bottom: 30px;
+}
+.column {
+    font-style: inherit;
+    font-size: 30px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.skill-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+}
+.skill {
+	width: 280px;
+	background: url(img/mind1.jpg) no-repeat top;
+    background: max-width;
+	padding-top: 70px;
+	text-align: center;
+}
+.skill-text {
+	width: 280px;
+    font-family: 'Open Sans', sans-serif;
+}
+.skill-educ {
+	background: url(img/educ.jpg) no-repeat top;
+}
+.skill-eng {
+	background: url(img/eng.jpg) no-repeat top;
+}
